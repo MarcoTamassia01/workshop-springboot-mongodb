@@ -23,7 +23,7 @@ import com.marco.workshopmongo.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserRosource {
+public class UserResource {
 
 	@Autowired
 	private UserService service; 
