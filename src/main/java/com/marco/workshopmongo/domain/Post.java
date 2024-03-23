@@ -19,7 +19,7 @@ public class Post  implements Serializable{
 	@Id
 	private String id;
 	private Date date;
-	private String tittle;
+	private String title;
 	private String body;
 	private AuthorDTO  author;
 	
@@ -34,7 +34,7 @@ public class Post  implements Serializable{
 		super();
 		this.id = id;
 		this.date = date;
-		this.tittle = tittle;
+		this.title = tittle;
 		this.body = body;
 		this.author=author;
 	}
@@ -56,11 +56,11 @@ public class Post  implements Serializable{
 	}
 
 	public String getTittle() {
-		return tittle;
+		return title;
 	}
 
 	public void setTittle(String tittle) {
-		this.tittle = tittle;
+		this.title = tittle;
 	}
 
 	public String getBody() {
